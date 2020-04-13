@@ -69,8 +69,8 @@ class Product():
         c.execute("INSERT INTO Product VALUES(? , ? , ? , ? , ? , ?)" , product_data)
         conn.commit()
 
-Customer_1 = Customer('Hervin' , 'Sagnep' , 5102287268 , 'hervinsagnep@gmail.com' , 1)
-Retailer_1 = Retailer(5001 , "Lucky" , "675 Blossom Way" , 600 , "CA")
+Customer_1 = Customer('Hervin' , 'Sagnep' , 5102287268 , 'hervinsagnep@email.com' , 1)
+Retailer_1 = Retailer(5001 , "Lucky" , "121 Street Way" , 600 , "CA")
 Product_1 = Product(200012 , "Fruit" , "04-20-2020" , 300 , 2.87 , 600)
 
 Customer_1.insert_into_table()
